@@ -101,4 +101,5 @@ You'll notice that there is very little code duplication.  All the logic for the
 and all the simple rate logic is in one place.
 
 This approach also makes it easier to add new states or change existing ones without having to modify multiple parts of the codebase.
-It also makes testing with asserts a lot easier, because we can directly test the individual functions.
+It also makes testing with asserts a lot easier, because we can directly test the individual functions,
+and now there are only 3 functions to test, year_2023_logic, simple_rate, and illinois!
