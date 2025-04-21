@@ -5,18 +5,14 @@ from math import floor
 
 # We will define some call records
 
-def create_records():
-    temp = [
-        {"from": "Alice", "to": "Bob", "duration": 5, "date": "2023-10-01", "state": "Texas"},
-        {"from": "Bob", "to": "Charlie", "duration": 7, "date": "2023-10-02", "state": "California"},
-        {"from": "Charlie", "to": "David", "duration": 4, "date": "2023-10-03", "state": "New York"},
-        {"from": "David", "to": "Eve", "duration": 6, "date": "2023-10-04", "state": "Florida"},
-        {"from": "Eve", "to": "Frank", "duration": 8.1, "date": "2023-10-05", "state": "Illinois"},
-        {"from": "Frank", "to": "Grace", "duration": 9, "date": "2023-10-06", "state": "Michigan"}
-    ]
-    return temp
-
-call_records = create_records()
+call_records = [
+    {"from": "Alice", "to": "Bob", "duration": 5, "date": "2023-10-01", "state": "Texas"},
+    {"from": "Bob", "to": "Charlie", "duration": 7, "date": "2023-10-02", "state": "California"},
+    {"from": "Charlie", "to": "David", "duration": 4, "date": "2023-10-03", "state": "New York"},
+    {"from": "David", "to": "Eve", "duration": 6, "date": "2023-10-04", "state": "Florida"},
+    {"from": "Eve", "to": "Frank", "duration": 8.1, "date": "2023-10-05", "state": "Illinois"},
+    {"from": "Frank", "to": "Grace", "duration": 9, "date": "2023-10-06", "state": "Michigan"}
+]
 
 # Using the old way with if/else let's apply logic based on state
 # update all records based on state.  The logic is as follows
